@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <element name="x-click-counter" constructor="CounterComponent" extends="div">
+      <template>
+        <style scoped>
+          .red-span {
+            color: red;
+          }
+        </style>
+        <div>
+          <span class="red-span">click count: {{count}}</span>
+        </div>
+      </template>
+      <script type="application/dart" src="xclickcounter.dart"></script>
+    </element>
+  </body>
+</html>
